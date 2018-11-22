@@ -1,6 +1,7 @@
 type User {
   id: ID! @unique
   name: String!
+  dateofbirth: DateTime!
 }
 
 type Product { 

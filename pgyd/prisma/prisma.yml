@@ -1,5 +1,8 @@
 endpoint: https://eu1.prisma.sh/alameer-ashraf-hassan-52fb06/pgyd/dev
 datamodel: datamodel.prisma
+hooks: 
+  post-deploy: 
+      - graphql get-schema -p prisma
 
 generate:
   - generator: javascript-client
