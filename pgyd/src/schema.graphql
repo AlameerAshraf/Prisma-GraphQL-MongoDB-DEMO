@@ -1,0 +1,8 @@
+
+type Query{
+    user(id: ID!): User
+}
+
+type Mutation{
+    createUser(user: User): User!
+}
