@@ -5,5 +5,5 @@ type Query{
 }
 
 type Mutation{
-    createUser(id: ID!): User!
+    createUser(id: ID! , name: String!): User!
 }
