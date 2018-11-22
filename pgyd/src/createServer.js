@@ -11,10 +11,9 @@ function CreateGraphQLServer(){
         resolvers : {
             Mutation , Query
         },
-        resolverValidationOptions : false,
+        // resolverValidationOptions : false,
         context : req => ({req , db})
     });
 }
-
 
 module.exports = CreateGraphQLServer;
