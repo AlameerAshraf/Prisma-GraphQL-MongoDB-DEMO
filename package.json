@@ -1,0 +1,19 @@
+{
+  "name": "pgyd",
+  "version": "1.0.0",
+  "description": "This is demo applucation for using prisma graphql database interface and graphql with mongodb 🎉",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlameerAshraf/Prisma-GraphQL-YOGA-DEMO.git"
+  },
+  "author": "Alameer Ashraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlameerAshraf/Prisma-GraphQL-YOGA-DEMO/issues"
+  },
+  "homepage": "https://github.com/AlameerAshraf/Prisma-GraphQL-YOGA-DEMO#readme"
+}
